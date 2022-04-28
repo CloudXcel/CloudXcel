@@ -14,8 +14,8 @@ const testimonials = () => {
           </div>
           <div className='col  mt-5 mt-lg-10' >
             <div className="mt-5 ">
-              <h4 className="mb-4 font-weight-bold line-height-4">Boost your agencies by choosing Ninja Developers</h4>
-              <p className="text-muted mb-4 pb-2"> lectronic typesetting, remaining essentially unchanged.</p>
+              <h1 className="title text-center mb-3 font-weight-bold text-dark">Boost your agencies by choosing Ninja Developers</h1>
+              <p className="text-muted mb-4 pb-2 mt-5"> lectronic typesetting, remaining essentially unchanged lectronic typesetting, remaining essentially unchanged.</p>
               <ol className="list-group list-group-flush">
                 <li className="list-group-item d-flex  align-items-start">
                 <i className="bi bi-arrow-return-right" ></i>
