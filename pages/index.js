@@ -5,6 +5,7 @@ import Feature from '../components/Feature';
 import Service from '../components/Service';
 import About from '../components/About';
 import Footer from '../components/Footer';
+// import Team from "../components/team";
 import Testimonials from "../components/testimonials";
 
 
@@ -17,7 +18,7 @@ export default function Home() {
       <Feature/>
       <Testimonials />
       <Service />
-      
+      {/* <Team /> */}
       <About />
       <Footer />
     </Layout>
