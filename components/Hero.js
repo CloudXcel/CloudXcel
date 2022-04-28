@@ -4,9 +4,9 @@ import Image from 'next/image'
 const Hero = () => {
   return (
     <section className="section position-relativ light" id="hero">
-      <div className='container-fluid d-flex justify-content-center'>
+      <div className='container d-flex justify-content-center'>
         <div className="row align-items-center">
-          <div className='col-12 col-md-6 col-lg-6 ms-4'>
+          <div className='col-12 col-lg-6 ms-4'>
             <div className="pr-lg-5">
               <p className="text-bold blockquote-footer lead font-weight-bold f-10 mb-3">Ultimate Cloud Support</p>
               <h1 className="mb-4 font-weight-normal line-height-1_4">Simply dummy text of the printing <span className="text-primary font-weight-medium">Name</span></h1>

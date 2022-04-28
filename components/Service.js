@@ -37,7 +37,7 @@ const Service = () => {
   ]
   
   return (
-    <section className="section bg-light" id="service" >
+    <section className="section" id="service" >
       <div className='container-fluid'>
         <div className=" row justify-content-center">
           <div className='col mb-10'>
