@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/images/logo/logo.svg'
 import Image from 'next/image'
+import Link from 'next/link'
 const Header = () => {
   
 
@@ -8,9 +9,9 @@ const Header = () => {
     <nav className="navbar sticky-top navbar-expand-lg navbar-light navbar-sticky bg-light">
       <div className="container">
         <div className='col'>
-        <a class="navbar-brand" href="/">
+        <Link className="navbar-brand" href="/">
           <Image src={logo} alt="logo" width="197" height="75" class="d-inline-block align-text-top"/>
-        </a>
+        </Link>
         </div>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
