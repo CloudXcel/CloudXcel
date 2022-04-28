@@ -3,7 +3,7 @@ import banner from '../assets/images/banner.png'
 import Image from 'next/image'
 const Hero = () => {
   return (
-    <section className="section position-relative">
+    <section className="section position-relativ light">
       <div className='container'>
         <div className="row align-items-center">
           <div className='col' lg={6}>

@@ -26,12 +26,12 @@ const Feature = () => {
       ]
 
   return (
-    <section className="section" id="feature">
+    <section className="section bg-light" id="feature">
       <div className='container-fluid'>
         <div className="row justify-content-center">
           <div className='col'>
             <div className="title text-center mb-5">
-              <p className="text-uppercase text-primary font-weight-medium f-14 mb-2">Ideal solutions for you</p>
+              <p className="text-uppercase text-primary font-weight-medium f-14 mb-2"><span className="text-info">Ideal solutions for you</span></p>
               <h1 className="title text-center mb-3 font-weight-bold text-dark">Go beyond ultimate features</h1>
               <p className="text-muted">Lorem Ipsum has been the industrys standard  scrambled it to make a type specimen book</p>
             </div>
