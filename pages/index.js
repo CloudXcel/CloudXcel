@@ -7,6 +7,7 @@ import About from '../components/About';
 import Footer from '../components/Footer';
 import Testimonials from "../components/testimonials";
 
+
 export default function Home() {
 
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Feature/>
       <Testimonials />
       <Service />
+      
       <About />
       <Footer />
     </Layout>
