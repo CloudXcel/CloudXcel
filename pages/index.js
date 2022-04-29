@@ -3,10 +3,10 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Feature from '../components/Feature';
 import Service from '../components/Service';
-// import About from '../components/About';
-import Footer from '../components/Footer';
+
 import Customer from "../components/contact";
 import Testimonials from "../components/testimonials";
+import Team from '../components/team'
 
 
 export default function Home() {
@@ -18,10 +18,9 @@ export default function Home() {
       <Feature/>
       <Testimonials />
       <Service />
-      {/* <Team /> */}
-      {/* <About /> */}
+      <Team />
       <Customer />
-      <Footer />
+     
     </Layout>
   )
 }

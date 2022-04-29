@@ -1,14 +1,14 @@
 
-import { Box, Heading, Text } from 'theme-ui';
+import React from "react";
 
 const SectionHeading = ({ title, description, ...props }) => {
   return (
-    <Box sx={styles.heading} {...props}>
-      <Heading sx={styles.title}>{title}</Heading>
-      <Text as="p" sx={styles.description}>
+    <div className="container text-center mb-4" sx={styles.heading} {...props}>
+      <h1 sx={styles.title}>{title}</h1>
+      <p as="p" sx={styles.description}>
         {description}
-      </Text>
-    </Box>
+      </p>
+    </div >
   );
 };
 
