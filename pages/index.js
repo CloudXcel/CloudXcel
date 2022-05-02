@@ -9,6 +9,8 @@ import Testimonials from "../components/testimonials";
 import Team from '../components/team'
 import Contact from "../components/Contact";
 
+
+
 export default function Home() {
 
   return (
@@ -20,8 +22,8 @@ export default function Home() {
       <Service />
       <Team />
       <Customer />
-    
       <Contact/>
+      
     </Layout>
   )
 }
