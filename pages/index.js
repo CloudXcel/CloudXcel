@@ -6,7 +6,7 @@ import Service from '../components/Service';
 import Customer from "../components/customer";
 import Testimonials from "../components/testimonials";
 import Team from '../components/team'
-import Contact from "../components/Contact"
+import Contact from "../components/footer"
 
 
 
