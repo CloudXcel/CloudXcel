@@ -1,31 +1,45 @@
-import React from 'react'
-import banner from '../assets/images/cta-2-1.png'
-import Image from 'next/image'
-const contact = () => {
+import React, { useState } from 'react'
+import SectionHeading from './section-heading'
+const Contact = () => {
+  
+  const [email, setEmail] = useState("");
+  const handleContactFormSubmit = async(e) => {
+    e.preventDefault()
+    console.log(email)
+   
+  }
+            
   return (
-    <section className="section position-relativ light" id="contact">
-    <div className='container d-flex justify-content-center'>
-      <div className="row align-items-center">
-        <div className='col-12 col-md-6 col-lg-6 ms-4'>
-          <div className="pr-lg-5">
-            <p className="text-bold blockquote-footer lead font-weight-bold f-10 mb-3">Customer Support</p>
-            <h1 className="mb-4 font-weight-normal line-height-1_4">Free Customer Support to ensure what you like to expect</h1>
-            <p className="text-start font-weight-normal mt-4 pb-2">We offer a risk-free trial period of up to two weeks. You will only have to pay if you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues on our dime period customers.</p>
-            <p className="text-muted mt-2 pb-2">If you are happy with the developer and wish to continue. If you are unsatisfied, we’ll refund payment or fix issues</p>
-            <a href="#service" classNme="btn btn-outline-dark">
-              Find Out How <span className="ml-2 right-icon">&#8594;</span>
-            </a>
-          </div>
-        </div>
-        <div className='col'>
-          <div className="mt-5 mt-lg-0">
-            <Image src={banner} alt="banner" className="img-fluid mx-auto d-block"/>
-          </div>
-        </div>
-      </div>
+    <div id='contact' className='section bg-dark' >
+        <div className='container'>
+            <div className='row justify-content-center text-center'>
+                <SectionHeading 
+                 title="Get Connected"
+                 description="Build an incredible workplace and grow your business with Gustos all-in-one platform with amazing contents."
+                 className="text-white"
+                 />
+                <form onSubmit={handleContactFormSubmit}>
+                    <div className="text-white mb-3">
+                        
+                        <input
+                          type="email"
+                          placeholder='Email'
+                          name="email"
+                          value={email}
+                          className="rounded"
+                          onChange={(e) => {
+                            setEmail(e.target.value);
+                          }}
+                          aria-describedby="emailHelp"/>
+                   </div>
+                    <button type="submit" className="btn btn-outline-light mb-3">Submit</button>
+                    
+                </form>
+            </div>
+            </div>
+        
     </div>
-  </section>
   )
 }
 
-export default contact
+export default Contact

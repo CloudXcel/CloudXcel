@@ -3,7 +3,7 @@ import icon1 from '../assets/images/icons/service1.png'
 import icon2 from '../assets/images/icons/service2.png'
 import icon3 from '../assets/images/icons/service3.png'
 import "swiper/css";
-import { Swiper, SwiperSlide } from "swiper/react";
+
 
 import Image from 'next/image'
 
