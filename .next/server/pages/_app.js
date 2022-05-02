@@ -31,7 +31,6 @@ var script_default = /*#__PURE__*/__webpack_require__.n(script_namespaceObject);
 
 
 
-
 function MyApp({ Component , pageProps  }) {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [

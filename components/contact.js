@@ -5,12 +5,12 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const handleContactFormSubmit = async(e) => {
     e.preventDefault()
-    console.log(email)
+    // console.log(email)
    
   }
             
   return (
-    <div id='contact' className='section bg-dark' >
+    <div  className='section bg-dark'id='contact' >
         <div className='container'>
             <div className='row justify-content-center text-center'>
                 <SectionHeading 
